@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name   = "tpl-management-rg-prd"
+    resource_group_name   = "tpl-terraform-p-rg"
     storage_account_name  = "terraformstg071"
     container_name        = "terraform-tfstate"
     key                   = "terraform-staticweb.tfstate"
